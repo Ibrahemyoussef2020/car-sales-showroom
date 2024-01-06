@@ -16,7 +16,7 @@ const NavBar = () => {
             <CostumButton 
                 title="Log In"
                 btnType='button'
-                styles="text-primary-blue rounded-full bg-white min-w-[130px]"
+                styles="text-primary-blue rounded-full bg-white min-w-[130px] cursor-not-allowed"
             />
         </nav>
     </header>
