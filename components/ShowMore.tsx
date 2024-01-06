@@ -15,15 +15,13 @@ const ShowMore = ({pageNumber,isNext}:ShowMoreProps) => {
     }
 
   return (
-    <div className=" w-full flex-center gap-5 mt-10">
-        {isNext &&  (
-            <CostumButton
-            btnType="button"
-            title="Show More"
-            styles="bg-primary-blue rounded-full text-white"
-            handleClick={handleNavigation}
-          />
-        )}
+    <div className=" w-full flex-center gap-5 mt-10">  
+        <CostumButton
+        btnType="button"
+        title="Show More"
+        styles="bg-primary-blue rounded-full text-white"
+        handleClick={handleNavigation}
+      />    
     </div>
   )
 }

@@ -7,7 +7,7 @@ export interface CostumButtonProps {
     handleClick?:MouseEventHandler<HTMLButtonElement>;
     btnType?:'button' | 'submit';
     rightIcon?:string;
-    isDisabled:boolean
+    isDisabled?:boolean
 }
 
 export interface SearchManufacturerProps {
